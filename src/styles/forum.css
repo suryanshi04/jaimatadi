@@ -1,0 +1,229 @@
+/* General Styling */
+.postsContainer body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.postsContainer main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.postsContainer div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+}
+
+.postsContainer h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.postsContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Post styling */
+.postsContainer li {
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.postsContainer li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Reply (Dialogue Bubble) styling */
+.postsContainer li.reply {
+    position: relative;
+    background-color: #e6f7ff;
+    border-color: #b3e0ff;
+}
+
+.postsContainer li.reply:before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #e6f7ff;
+    border: 1px solid #b3e0ff;
+    border-width: 1px 1px 0 0;
+    transform: rotate(45deg);
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.postsContainer button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.postsContainer button:hover {
+    background-color: #0056b3;
+}
+
+
+.postsContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.postsContainer label {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.postsContainer input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.postsContainer textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+
+}
+
+.postsContainer input[type="text"]:focus {
+    border-bottom-color: #007BFF;
+}
+
+.postsContainer input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.postsContainer input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.button-container {
+    display: flex;
+    /* Uses flexbox to lay out children */
+    justify-content: space-between;
+    /* Children are spaced across the full width */
+    align-items: center;
+    /* Centers children along the cross axis */
+    width: 100%;
+    /* Optional: takes full width of the parent */
+    padding: 10px;
+    /* Optional: space around the container */
+}
+
+.select {
+    width: 27%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+#visibility {
+  /* Style the select element */
+  background-color: blue; /* Make the select background transparent */
+}
+
+/* Style the options */
+.option {
+    background-color: #fff;
+    font-size: 16px;
+}
+
+/* Optional: Additional styles for buttons */
+.btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
+
+.btn:active,
+.btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn.btn-primary {
+    background: #136ad5;
+    border-color: #136ad5;
+}
+
+.btn.btn-primary:hover {
+    border-color: #1573e8;
+    background: #1573e8;
+}
+
+.btn.btn-secondary {
+    background: #00aeff;
+    border-color: #00aeff;
+}
+
+.btn.btn-secondary:hover {
+    border-color: #14b4ff;
+    background: #14b4ff;
+}
+
+.btn.btn-sm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn.btn-outline-primary {
+    border-color: #136ad5;
+    color: #136ad5;
+}
+
+.btn.btn-outline-primary:hover {
+    background: #136ad5;
+    color: #ffffff;
+}
