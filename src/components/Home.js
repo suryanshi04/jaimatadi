@@ -103,7 +103,7 @@ function Home(){
                 <i className="uil uil-calculator"></i>
               </div>
               <div>
-                <h3>Theory of Computation</h3>
+                <h3>THEORY of Computation</h3>
                 <span></span>
               </div>
             </button>
