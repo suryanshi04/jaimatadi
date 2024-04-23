@@ -379,11 +379,9 @@ function Home(){
               <h3>Get in Touch</h3>
               <address>Bennett University</address>
               <ul className="list-unstyled links mb-4">
-                <li><a href="tel://4047276123">+91 9305792979</a>- Suryanshi Sharma (CEO/Founder)</li>
-                <li><a href="tel://4047276123">+91 7027114007</a>- Arpit Kochar (MD/Minister)</li>
-                <li><a href="tel://4047276123">+91 7302303965</a>- Khushi Agarwal (SDE/Manager)</li>
-                <li><a href="tel://4047276123">+91 9315914293</a>- Kuljot Singh (CA)</li>
-                <li><a href="tel://4047276123">+91 8279612903</a>- Sahej Prakash (Co-Founder)</li>
+                <li><a href="tel://4047276123">+91 9305792979</a>- Suryanshi Sharma</li>
+                <li><a href="tel://4047276123">+91 8279612903</a>- Sahej Prakash</li>
+                <li><a href="tel://4047276123">+91 9438232407</a>- Anshika Singh</li>
                 <li><a href="email://jeff.epstein@emory.edu">Nexus@gmail.com</a></li>
               </ul>
             </div>
