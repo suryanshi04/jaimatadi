@@ -435,7 +435,7 @@ function Professors() {
           <div className="col-lg-3 mr-auto">
             <div className="widget">
               <h3>About Us<span className="text-primary"></span> </h3>
-              <p>A group of Bennett Students.</p>
+              <p>A STUDENT OF UPES.</p>
             </div>
           </div>
 
@@ -466,7 +466,7 @@ function Professors() {
           <div className="col-lg-3">
             <div className="widget">
               <h3>Get in Touch</h3>
-              <address>Bennett University</address>
+              <address>UPES</address>
               <ul className="list-unstyled links mb-4">
                 <li><a href="tel://4047276123">+91 9305792979</a></li>
                 <li><a href="email://jeff.epstein@emory.edu">nexus@gmail.com</a></li>
