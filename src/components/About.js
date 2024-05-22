@@ -453,10 +453,9 @@ function About(){
           <div className="col-lg-3">
             <div className="widget">
               <h3>Contact</h3>
-              <address>201 Dowman Dr, Atlanta, GA 30322</address>
+              <address>UPES</address>
               <ul className="list-unstyled links mb-4">
-                <li><a href="tel://4047276123">+1(404) 727-6123</a></li>
-                <li><a href="email://jeff.epstein@emory.edu">jeff.epstein@emory.edu</a></li>
+                <li><a href="email://jeff.epstein@emory.edu">NEXUS@GMSIL.COM</a></li>
               </ul>
             </div>
           </div>
