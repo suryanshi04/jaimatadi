@@ -379,9 +379,7 @@ function Home(){
               <h3>Get in Touch</h3>
               <address>Bennett University</address>
               <ul className="list-unstyled links mb-4">
-                <li><a href="tel://4047276123">+91 9305792979</a>- Suryanshi Sharma</li>
-                <li><a href="tel://4047276123">+91 8279612903</a>- Sahej Prakash</li>
-                <li><a href="tel://4047276123">+91 9438232407</a>- Anshika Singh</li>
+                <li><a href="tel://4047276123">+91 983706657</a>- Prabtej Singh</li>
                 <li><a href="email://jeff.epstein@emory.edu">Nexus@gmail.com</a></li>
               </ul>
             </div>
